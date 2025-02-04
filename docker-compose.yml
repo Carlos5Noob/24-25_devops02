@@ -3,7 +3,7 @@ version: "3.1"
 services:
   galeria:
     container_name: galeria
-    image: carlosjr5/test:latest
+    image: carlosjr5/galeria:latest
     ports:
       - 80:5000
     restart: always
